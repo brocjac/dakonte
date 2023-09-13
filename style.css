@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, arial, sans-serif;
+}
+body {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 32px;
+}
+.button-1 {
+    display: block;
+    width: 25rem;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+}
+.button-2 {
+    display: block;
+    width: 15rem;
+    text-align: center;
+    border: solid 2px grey;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 1rem;
+}
+/* header + Nav */
+.logo-img-text {
+    max-width: 300px;
+    padding: 15px;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+.nav li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #0066ff;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0);
+}
+.nav li a:hover::after {
+    transform: scale(1);
+}
+/* introduction */
+.introduction-container {
+    position: relative;
+    height: 515px;
+    color: white;
+}
+.main-img {
+    position: absolute;
+    width: 100%;
+    height: 515px;
+    object-fit: cover;
+}
+.intro-text {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    width: 35%;
+}
+.intro-text p {
+    padding: 20px 0 20px 0;
+}
+.intro-nav {
+    position: absolute;
+    display: inline-flex;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+.intro-nav a {
+    color: #fff;
+}
+.banner-container {
+    width: 35%;
+    padding: 25px 50px 25px 30px;
+    border: 1px solid #ddd;
+    transition-duration: 0.25s;
+    position: relative;
+}
+.banner-container img {
+    max-height: 45px;
+}
+/* intro nav animation */
+.banner-container:hover {
+    padding: 20px 50px 30px 30px;
+    text-decoration: none;
+}
+.banner-container::after {
+    font-weight: bold;
+    content: '\2192';
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    opacity: 0;
+}
+.banner-container:hover::after {
+    opacity: 1;
+    transition-duration: .25s;
+}
+
+/* products */
+.products-container {
+    padding: 80px 50px 50px 50px;
+}
+.product-exp {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-top: 60px;
+}
+.product-exp hr {
+    width: 55px;
+    height: 2px;
+    border: none;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.product-exp p {
+    padding: 20px 0 20px 0;
+}
+.products-content {
+    display: inline-block;
+    width: 55%;
+    margin-left: 120px;
+}
+.products {
+    display: flex;
+    flex-flow: wrap;
+}
+.products a {
+    width: calc(33% - 45px);
+    flex-grow: 1;
+    height: 210px;
+}
+.product {
+    border: solid 1px #c9c9c9;
+    margin: 10px;
+    position: relative;
+    bottom: 0;
+    transition-duration: .3s;
+}
+.product span {
+    display: block;
+    padding: 20px 0 0 20px;
+}
+.product img {
+    max-height: 120px;
+    margin: auto;
+}
+.div-product-img {
+    display: flex;
+    height: calc(100% - 45px);
+    width: 100%;
+    overflow: hidden;
+}
+/* Animations for Products */
+.product:hover {
+    bottom: 10px;
+    text-decoration: none;
+}
+/* we are here to help */
+.here-to-help-container {
+    padding-bottom: 50px;
+}
+.here-to-help-container h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.help-options-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.help-options {
+    flex-grow: 1;
+    padding: 25px;
+    width: 120px;
+}
+.help-options img {
+    width: 45px;
+    position: relative;
+    bottom: 0;
+    transition-duration: .3s;
+}
+.help-options a {
+    display: block;
+    color: black;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
+/* Help Options Animations */
+.help-options:hover img {
+    bottom: 5px;
+}
+/* footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer img {
+    padding-right: 15px;
+}
+footer p {
+    align-self: center;
+}
+.trademark {
+    text-align: right;
+    flex-grow: 8;
+}
