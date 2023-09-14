@@ -17,7 +17,7 @@ h2 {
 }
 .button-1 {
     display: block;
-    width: 25rem;
+    width: 80%;
     text-align: center;
     background-color: #2F528F;
     text-decoration: none;
@@ -25,19 +25,9 @@ h2 {
     cursor: pointer;
     padding: 1rem;
 }
-.button-2 {
-    display: block;
-    width: 15rem;
-    text-align: center;
-    border: solid 2px grey;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    padding: 1rem;
-}
 /* header + Nav */
 .logo-img-text {
-    max-width: 300px;
+    max-width: 370px;
     padding: 15px;
 }
 .nav {
@@ -169,8 +159,10 @@ label {
 }
 .products-content {
     display: inline-block;
-    width: 55%;
-    margin-left: 120px;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 .products {
     display: flex;
