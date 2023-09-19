@@ -86,12 +86,13 @@ label {
 .main-img {
     position: absolute;
     width: 100%;
-    height: 515px;
+    height: 565px;
     object-fit: cover;
+    object-position: bottom;
 }
 .intro-text {
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     right: 50px;
     width: 35%;
 }
@@ -115,8 +116,8 @@ label {
     transition-duration: 0.25s;
     position: relative;
 }
-.banner-container img {
-    max-height: 45px;
+.banner-container-img {
+    max-height: 65px;
 }
 /* intro nav animation */
 .banner-container:hover {
