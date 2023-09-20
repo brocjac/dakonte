@@ -117,7 +117,8 @@ label {
     position: relative;
 }
 .banner-container-img {
-    max-height: 65px;
+    max-height: 50px;
+    margin: 0 0 5px 10px;
 }
 /* intro nav animation */
 .banner-container:hover {
@@ -245,6 +246,7 @@ footer {
 }
 footer img {
     padding-right: 15px;
+    max-width: 100px;
 }
 footer p {
     align-self: center;
