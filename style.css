@@ -101,7 +101,7 @@ label {
     right: 50px;
     width: 35%;
 }
-.intro-text p {
+.intro-text div {
     padding: 20px 0 20px 0;
 }
 .intro-nav {
