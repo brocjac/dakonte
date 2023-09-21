@@ -36,7 +36,7 @@ class Header extends HTMLElement {
                         </div>
                     </div>
                 </li>
-                <li><a href="brands.html" target="_blank">Brands</a></li>
+                <li><a href="brands.html">Brands</a></li>
             </ul>
         </header>
         `;

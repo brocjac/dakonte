@@ -188,6 +188,7 @@ label {
 }
 .product img {
     max-height: 120px;
+    max-width: calc(100% - 45px);
     margin: auto;
 }
 .div-product-img {
