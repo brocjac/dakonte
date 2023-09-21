@@ -26,19 +26,24 @@ h2 {
     padding: 1rem;
 }
 /* header + Nav */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .logo-img-text {
     max-width: 370px;
     padding: 15px;
 }
 .nav {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-bottom: 15px;
+    flex-grow: 8;
+    align-self: center;
 }
 .nav li {
-    float: left;
+    float: right;
 }
 .nav li a, .nav li label {
     display: block;
