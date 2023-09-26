@@ -5,9 +5,11 @@
     font-family: Lato, arial, sans-serif;
 }
 body {
+    position: relative;
     max-width: 1320px;
     margin: 0 auto;
     padding: 20px;
+    overflow-x: hidden;
 }
 h1 {
     font-size: 42px;
@@ -76,8 +78,8 @@ label {
 .hover:hover .list {
     display: block;
     position: absolute;
-    transform: translate(-25px);
-    margin-left: -100px;
+    right: 0;
+    transform: translate(-15px);
     background-color: #fff;
     padding: 20px;
     z-index: 1;
