@@ -30,7 +30,7 @@ class Header extends HTMLElement {
                             <a href="#">Facility Manager</a>
                             <a href="#">Government</a>
                             <a href="#">Healthcare</a>
-                            <a href="#">manufacturer</a>
+                            <a href="#">Manufacturer</a>
                             <a href="#">Office</a>
                             <a href="#">Retail</a>
                         </div>
