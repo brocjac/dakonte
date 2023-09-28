@@ -108,6 +108,26 @@
             bottom: 30px;
         }
     }
+    /*navbar*/
+    /*header {*/
+    /*    display: block;*/
+    /*}*/
+    /*.nav {*/
+    /*    display: block;*/
+    /*    position: fixed;*/
+    /*    left: 0;*/
+    /*    bottom: 0;*/
+    /*    background-color: #ffffff;*/
+    /*    width: 100%;*/
+    /*    z-index: 999;*/
+    /*}*/
+    /*.nav li {*/
+    /*    position: relative;*/
+    /*    width: 33%;*/
+    /*    padding: 20px;*/
+    /*    background-color: rgba(0, 0, 0, 0.5);*/
+    /*}*/
+
 
     /*products*/
     .products-content {
