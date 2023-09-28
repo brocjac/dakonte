@@ -74,12 +74,35 @@
     .intro-text h1, .intro-text h3 {
         text-align: center;
     }
+    @media screen and (max-width: 420px) {
+        .banner-container {
+            padding: 25px;
+        }
+        .banner-container-img {
+            display: block;
+            margin: 5px auto;
+        }
+        .banner-container p {
+            text-align: center;
+        }
+    }
     @media screen and (max-width: 435px) {
         .introduction-container {
             height: 745px;
         }
         .main-img {
             height: 745px;
+        }
+        .intro-text {
+            bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .introduction-container {
+            height: 800px;
+        }
+        .main-img {
+            height: 800px;
         }
         .intro-text {
             bottom: 30px;

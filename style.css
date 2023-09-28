@@ -129,8 +129,8 @@ label {
     position: relative;
 }
 .banner-container-img {
-    max-height: 50px;
-    margin: 0 0 5px 10px;
+    max-height: 65px;
+    margin: 0 0 10px 5px;
 }
 /* intro nav animation */
 .banner-container:hover {
