@@ -43,4 +43,20 @@ class Header extends HTMLElement {
     }
 }
 
+class Footer extends HTMLElement {
+    connectedCallback () {
+        this.innerHTML = `
+            <footer>
+                <img class="logo-img-footer" src="images/icons/about-dgp.png" alt="Dakonte Product Group logo. ">
+                <div>
+                    <p><a href="about-dpg.html">About DGP</a> | <a href="#">Privacy</a></p>
+                    <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>
+                </div>
+                <p class="trademark">The brands listed above are trademarks of Dakonte Product Group.</p>
+            </footer>
+        `
+    }
+}
+
 customElements.define('main-header', Header);
+customElements.define('main-footer', Footer);
