@@ -1,6 +1,14 @@
 /*tablet size*/
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 880px) {
     /*header*/
+
+    /*footer*/
+    .trademark {
+        text-align: center;
+        padding: 15px;
+    }
+
+    /*--------------Home Page----------------*/
 
     /*introduction*/
     .intro-text {
