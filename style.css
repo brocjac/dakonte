@@ -101,12 +101,15 @@ label {
 }
 .intro-text {
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     right: 50px;
-    width: 35%;
+    width: 40%;
 }
 .intro-text div {
     padding: 20px 0 20px 0;
+}
+.intro-text div p {
+    padding-top: 10px;
 }
 .intro-nav {
     position: absolute;
@@ -211,15 +214,15 @@ label {
     bottom: 10px;
     text-decoration: none;
 }
-/* we are here to help */
-.here-to-help-container {
+/* Learn More */
+.learn-container {
     padding-bottom: 50px;
 }
-.here-to-help-container h2{
+.learn-container h2{
     text-align: center;
     padding-bottom: 20px;
 }
-.help-options-container {
+.learn-options-container {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -228,25 +231,25 @@ label {
     margin: 0 auto;
     text-align: center;
 }
-.help-options {
+.learn-options {
     flex-grow: 1;
     padding: 25px;
     width: 120px;
 }
-.help-options img {
+.learn-options img {
     width: 45px;
     position: relative;
     bottom: 0;
     transition-duration: .3s;
 }
-.help-options a {
+.learn-options a {
     display: block;
     color: black;
     font-weight: 700;
     padding: 10px 0 10px 0;
 }
 /* Help Options Animations */
-.help-options:hover img {
+.learn-options:hover img {
     bottom: 5px;
 }
 /* footer */
