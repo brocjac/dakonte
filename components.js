@@ -7,7 +7,7 @@ class Header extends HTMLElement {
             <ul class="nav">
                 <li>
                     <div class="hover">
-                        <a href="#">Products</a>
+                        <a href="#" class="menuItem">Products</a>
                         <div class="list">
                             <a href="https://tieofficemates.com/shop-ticket-holders/heavy-duty-stitched-job-ticket-holders/" target="_blank">Job Ticket Holders</a>
                             <a href="https://tieofficemates.com/vinyl-document-sleeves/waterproof-press-lock-seal/" target="_blank">Waterproof Holders</a>
@@ -23,7 +23,7 @@ class Header extends HTMLElement {
                 </li>
                 <li>
                     <div class="hover">
-                        <a href="#">Industry</a>
+                        <a href="#" class="menuItem">Industry</a>
                         <div class="list">
                             <a href="#">Auto Repair</a>
                             <a href="#">Construction</a>
@@ -37,11 +37,12 @@ class Header extends HTMLElement {
                         </div>
                     </div>
                 </li>
-                <li><a href="brands.html">Brands</a></li>
+                <li><a href="brands.html" class="menuItem">Brands</a></li>
             </ul>
-             <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            <button class="hamburger">
+                <i class="menuIcon fa fa-bars"></i>
+                <i class="closeIcon fa-solid fa-x"></i>
+            </button>
         </header>
         `;
     }
@@ -58,8 +59,6 @@ class Footer extends HTMLElement {
                 </div>
                 <p class="trademark">The brands listed above are trademarks of Dakonte Product Group.</p>
             </footer>
-            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-            <script src="script.js"></script>
         `
     }
 }
