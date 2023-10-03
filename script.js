@@ -1,62 +1,10 @@
-class Header extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <header>
-            <a href="index.html"><img class="logo-img-text" src="images/images/DPG Corp Family Logo TIE GMC EP transparent.jpg" alt="Dakonte Product Group, TIE office mates, Great Menu Covers, and Easy Partition Logo. "></a>
-            <ul class="nav">
-                <li>
-                    <div class="hover">
-                        <a href="#">Products</a>
-                        <div class="list">
-                            <a href="https://tieofficemates.com/shop-ticket-holders/heavy-duty-stitched-job-ticket-holders/" target="_blank">Job Ticket Holders</a>
-                            <a href="https://tieofficemates.com/vinyl-document-sleeves/waterproof-press-lock-seal/" target="_blank">Waterproof Holders</a>
-                            <a href="https://tieofficemates.com/color-coding-options/" target="_blank">Color Coded Products</a>
-                            <a href="https://greatmenucovers.com/cafe-menu-covers-vinyl-trim" target="_blank">Café Menu Covers</a>
-                            <a href="https://greatmenucovers.com/clear-plastic-menu-sleeve-pockets/" target="_blank">Clear Menu Covers</a>
-                            <a href="https://greatmenucovers.com/add-a-menu-page-inserts/" target="_blank">Add-A-Page</a>
-                            <a href="https://tieofficemates.com/auto-repair-order-holders/" target="_blank">Service Order Holders</a>
-                            <a href="https://tieofficemates.com/easy-sign-holders/" target="_blank">Sign Holders</a>
-                            <a href="https://tieofficemates.com/vinyl-tag-holders/" target="_blank">Tag Holders</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="hover">
-                        <a href="#">Industry</a>
-                        <div class="list">
-                            <a href="#">Auto Repair</a>
-                            <a href="#">Construction</a>
-                            <a href="#">Education</a>
-                            <a href="#">Facility Manager</a>
-                            <a href="#">Government</a>
-                            <a href="#">Healthcare</a>
-                            <a href="#">Manufacturer</a>
-                            <a href="#">Office</a>
-                            <a href="#">Retail</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="brands.html">Brands</a></li>
-            </ul>
-        </header>
-        `;
+$(document).ready (function () {
+    function myFunction() {
+        var x = document.getElementsByClassName("nav");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
     }
-}
-
-class Footer extends HTMLElement {
-    connectedCallback () {
-        this.innerHTML = `
-            <footer>
-                <img class="logo-img-footer" src="images/icons/about-dgp.png" alt="Dakonte Product Group logo. ">
-                <div>
-                    <p><a href="about-dpg.html">About DGP</a> | <a href="#">Privacy</a></p>
-                    <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>
-                </div>
-                <p class="trademark">The brands listed above are trademarks of Dakonte Product Group.</p>
-            </footer>
-        `
-    }
-}
-
-customElements.define('main-header', Header);
-customElements.define('main-footer', Footer);
+})
