@@ -237,7 +237,7 @@ label {
     width: 120px;
 }
 .learn-options img {
-    width: 45px;
+    height: 55px;
     position: relative;
     bottom: 0;
     transition-duration: .3s;
