@@ -1,17 +1,27 @@
 /*tablet size*/
 @media screen and (max-width: 920px) {
     @media screen and (max-width: 730px) {
+        header {
+            align-items: center;
+        }
         /*hamburger Menu*/
         .hamburger {
             display: block !important;
+            position: fixed;
             cursor: pointer;
-            padding: 20px;
+            padding: 13px 15px;
+            right: 20px;
             z-index: 999;
+        }
+        .hamburger i {
+            font-size: 25px;
+            position: relative;
         }
         .menuItem {
             display: block;
         }
         .nav {
+            display: block !important;
             position: fixed;
             transform: translateY(-100%);
             transition: transform 0.2s;
@@ -20,9 +30,57 @@
             right: 0;
             bottom: 0;
             z-index: 99;
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+        }
+        .nav ul {
+            position: relative;
+            height: 65vh;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .nav ul li {
+            display: block;
+            float: none !important;
+            position: static;
+            width: 30%;
         }
         .showMenu {
             transform: translateY(0);
+        }
+        /*dropdown*/
+        .hover:hover .list {
+            position: absolute;
+            width: 70%;
+            height: 75vh;
+            top: 0;
+            transform: translate(0px) !important;
+        }
+        .hover {
+            position: static;
+            display: flex;
+            justify-content: center;
+            top: 50%;
+        }
+        @media screen and (max-width: 420px) {
+            .hover {
+                display: block;
+                margin: 0 auto;
+            }
+            .nav ul {
+                overflow: visible !important;
+                width: 80%;
+                margin: 0 auto;
+            }
+            .nav ul li {
+                width: 100%;
+            }
+            .hover:hover .list {
+                position: relative !important;
+                height: 100%;
+                width: 100%;
+            }
         }
     }
     /*header*/

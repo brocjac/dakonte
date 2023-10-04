@@ -9,23 +9,27 @@ header {
     padding: 15px;
 }
 .nav {
+    display: flex;
+    flex-grow: 8;
+    justify-content: flex-end;
+}
+.nav ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    flex-grow: 8;
     align-self: center;
 }
-.nav li {
+.nav ul li {
     float: right;
 }
-.nav li a, .nav li label {
+.nav ul li a {
     display: block;
     text-align: center;
     padding: 10px 25px;
     text-decoration: none;
     color: black;
 }
-.nav li a::after, .nav li label::after {
+.nav ul li a::after, .nav ul li label::after {
     content: "";
     display: block;
     width: 100%;
@@ -34,7 +38,7 @@ header {
     transition: transform 0.2s ease-in-out;
     transform: scale(0);
 }
-.nav li a:hover::after, .nav li label:hover::after {
+.nav ul li a:hover::after, .nav li label:hover::after {
     transform: scale(1);
 }
 /* popup menus */

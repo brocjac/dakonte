@@ -15,6 +15,12 @@ function toggleMenu() {
     }
 }
 hamburger.addEventListener("click", toggleMenu);
-menuItem.forEach(function (menuItem){
-    menuItem.addEventListener("click", toggleMenu);
-})
+// menuItem.forEach(function (menuItem){
+//     menuItem.addEventListener("click", toggleMenu);
+// })
+$(function(){
+    $("a.counter").click(function()
+    {
+        return false; // prevent default browser refresh on "#" link
+    });
+});
