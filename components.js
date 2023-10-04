@@ -40,8 +40,8 @@ class Header extends HTMLElement {
                 <li><a href="brands.html" class="menuItem">Brands</a></li>
             </ul>
             <button class="hamburger">
-                <i class="menuIcon fa fa-bars"></i>
-                <i class="closeIcon fa-solid fa-x"></i>
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons" style="display: none">close</i>
             </button>
         </header>
         `;

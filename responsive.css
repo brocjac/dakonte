@@ -4,10 +4,9 @@
         /*hamburger Menu*/
         .hamburger {
             display: block !important;
-            /*position: fixed;*/
-        }
-        .closeIcon {
-            display: none;
+            cursor: pointer;
+            padding: 20px;
+            z-index: 999;
         }
         .menuItem {
             display: block;
