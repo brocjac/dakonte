@@ -36,7 +36,7 @@
         }
         .nav ul {
             position: relative;
-            height: 65vh;
+            height: 70vh;
             top: 50%;
             transform: translateY(-50%);
         }
@@ -69,9 +69,12 @@
                 margin: 0 auto;
             }
             .nav ul {
-                overflow: visible !important;
+                overflow: scroll !important;
                 width: 80%;
                 margin: 0 auto;
+                height: 81vh;
+                top: 11%;
+                transform: none;
             }
             .nav ul li {
                 width: 100%;
@@ -119,8 +122,9 @@
 /*Smart phone size*/
 @media screen and (max-width: 560px) {
     /*header*/
-    header a img {
-        max-width: 100% !important;
+    .logo-img-text {
+        max-width: 80% !important;
+        padding: 0 !important;
     }
     /*footer*/
     footer {
@@ -128,12 +132,12 @@
     }
     footer img {
         position: relative;
-        padding: 0;
+        padding-right: 0 !important;
         left: 50%;
         transform: translate(-50%);
     }
     footer p {
-        text-align: center;
+        text-align: center !important;
     }
     /*--------------Home Page----------------*/
 
@@ -191,26 +195,6 @@
             bottom: 30px;
         }
     }
-    /*navbar*/
-    /*header {*/
-    /*    display: block;*/
-    /*}*/
-    /*.nav {*/
-    /*    display: block;*/
-    /*    position: fixed;*/
-    /*    left: 0;*/
-    /*    bottom: 0;*/
-    /*    background-color: #ffffff;*/
-    /*    width: 100%;*/
-    /*    z-index: 999;*/
-    /*}*/
-    /*.nav li {*/
-    /*    position: relative;*/
-    /*    width: 33%;*/
-    /*    padding: 20px;*/
-    /*    background-color: rgba(0, 0, 0, 0.5);*/
-    /*}*/
-
 
     /*products*/
     .products-content {

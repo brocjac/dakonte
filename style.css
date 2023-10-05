@@ -62,6 +62,7 @@ h2 {
 }
 .intro-nav a {
     color: #fff;
+    font-weight: 700;
 }
 .banner-container {
     width: 35%;
@@ -184,13 +185,20 @@ h2 {
     bottom: 0;
     transition-duration: .3s;
 }
-.learn-options a {
+.learn-options {
     display: block;
     color: black;
+    text-decoration: none;
+}
+.learn-title {
     font-weight: 700;
     padding: 10px 0 10px 0;
+    text-decoration: underline;
 }
 /* Help Options Animations */
 .learn-options:hover img {
     bottom: 5px;
+}
+.learn-options:hover .learn-title {
+    text-decoration: none;
 }
