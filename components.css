@@ -54,7 +54,7 @@ label {
     position: absolute;
     right: 0;
     transform: translate(-19px);
-    background-color: rgba(0,0,0,0.1);
+    background-color: #fff;
     padding: 20px;
     z-index: 1;
 }
@@ -128,10 +128,11 @@ footer p {
             transform: translateY(0);
         }
         /*dropdown*/
-        .hover:hover .list {
+        .list {
             position: absolute;
             width: 70%;
             height: 75vh;
+            background-color: rgba(0,0,0,0.1);
             top: 0;
             transform: translate(0px) !important;
         }
