@@ -1,3 +1,4 @@
+/*------------------index.html---------------------*/
 .button-1 {
     display: block;
     width: 80%;
@@ -38,7 +39,7 @@
     position: absolute;
     display: inline-flex;
     top: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.65);
     width: 100%;
 }
 .intro-nav a {
