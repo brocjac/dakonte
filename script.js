@@ -24,3 +24,24 @@ $(function(){
         return false; // prevent default browser refresh on "#" link
     });
 });
+
+function show_hide_1() {
+    const click = document.getElementsByClassName("list-1");
+    Array.from(click).forEach((x) => {
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    })
+}
+function show_hide_2() {
+    const click = document.getElementsByClassName("list-2");
+    Array.from(click).forEach((x) => {
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    })
+}

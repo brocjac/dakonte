@@ -8,8 +8,8 @@ class Header extends HTMLElement {
                 <ul>
                     <li>
                         <div class="hover">
-                            <a href="#" class="menuItem">Products</a>
-                            <div class="list">
+                            <a onclick="show_hide_1()" href="#" class="menuItem">Products</a>
+                            <div class="list list-1" style="display: none;">
                                 <a href="https://tieofficemates.com/shop-ticket-holders/heavy-duty-stitched-job-ticket-holders/">Job Ticket Holders</a>
                                 <a href="https://tieofficemates.com/vinyl-document-sleeves/waterproof-press-lock-seal/">Waterproof Holders</a>
                                 <a href="https://tieofficemates.com/color-coding-options/">Color Coded Products</a>
@@ -24,8 +24,8 @@ class Header extends HTMLElement {
                     </li>
                     <li>
                         <div class="hover">
-                            <a href="#" class="menuItem">Industry</a>
-                            <div class="list">
+                            <a onclick="show_hide_2()" href="#" class="menuItem">Industry</a>
+                            <div class="list list-2">
                                 <a href="#">Auto Repair</a>
                                 <a href="#">Construction</a>
                                 <a href="#">Education</a>
