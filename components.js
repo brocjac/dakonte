@@ -25,7 +25,7 @@ class Header extends HTMLElement {
                     <li>
                         <div class="hover">
                             <a onclick="show_hide_2()" href="#" class="menuItem">Industry</a>
-                            <div class="list list-2">
+                            <div class="list list-2" style="display: none;">
                                 <a href="#">Auto Repair</a>
                                 <a href="#">Construction</a>
                                 <a href="#">Education</a>
