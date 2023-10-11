@@ -1,38 +1,10 @@
 /*tablet size*/
 @media screen and (max-width: 920px) {
     @media screen and (max-width: 730px) {
-        /*hamburger Menu*/
-        .hamburger {
-            display: block !important;
-            cursor: pointer;
-            padding: 20px;
-            z-index: 999;
-        }
-        .menuItem {
-            display: block;
-        }
-        .nav {
-            position: fixed;
-            transform: translateY(-100%);
-            transition: transform 0.2s;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 99;
-        }
-        .showMenu {
-            transform: translateY(0);
+        header {
+            align-items: center;
         }
     }
-    /*header*/
-
-    /*footer*/
-    .trademark {
-        text-align: center;
-        padding: 15px;
-    }
-
     /*--------------Home Page----------------*/
 
     /*introduction*/
@@ -61,8 +33,9 @@
 /*Smart phone size*/
 @media screen and (max-width: 560px) {
     /*header*/
-    header a img {
-        max-width: 100% !important;
+    .logo-img-text {
+        max-width: 80% !important;
+        padding: 0 !important;
     }
     /*footer*/
     footer {
@@ -70,12 +43,12 @@
     }
     footer img {
         position: relative;
-        padding: 0;
+        padding-right: 0 !important;
         left: 50%;
         transform: translate(-50%);
     }
     footer p {
-        text-align: center;
+        text-align: center !important;
     }
     /*--------------Home Page----------------*/
 
@@ -133,26 +106,6 @@
             bottom: 30px;
         }
     }
-    /*navbar*/
-    /*header {*/
-    /*    display: block;*/
-    /*}*/
-    /*.nav {*/
-    /*    display: block;*/
-    /*    position: fixed;*/
-    /*    left: 0;*/
-    /*    bottom: 0;*/
-    /*    background-color: #ffffff;*/
-    /*    width: 100%;*/
-    /*    z-index: 999;*/
-    /*}*/
-    /*.nav li {*/
-    /*    position: relative;*/
-    /*    width: 33%;*/
-    /*    padding: 20px;*/
-    /*    background-color: rgba(0, 0, 0, 0.5);*/
-    /*}*/
-
 
     /*products*/
     .products-content {
