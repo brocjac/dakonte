@@ -49,7 +49,6 @@ class Header extends HTMLElement {
         `;
     }
 }
-
 class Footer extends HTMLElement {
     connectedCallback () {
         this.innerHTML = `
