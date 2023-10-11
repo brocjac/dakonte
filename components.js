@@ -54,7 +54,7 @@ class Footer extends HTMLElement {
     connectedCallback () {
         this.innerHTML = `
             <footer>
-                <img class="logo-img-footer" src="../images/icons/about-dgp.png" alt="Dakonte Product Group logo. ">
+                <a href="../html/index.html"><img class="logo-img-footer" src="../images/icons/about-dgp.png" alt="Dakonte Product Group logo. "></a>
                 <div>
                     <p><a href="https://tieofficemates.com/industries-served/">About DGP</a> | <a href="https://tieofficemates.com/privacy-policy/">Privacy</a></p>
                     <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>
