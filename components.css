@@ -83,6 +83,13 @@ footer p {
 @media screen and (max-width: 920px) {
     @media screen and (max-width: 730px) {
         /*hamburger Menu*/
+        header {
+            align-items: center;
+        }
+        .logo-img-text {
+            max-width: 80% !important;
+            padding: 0 !important;
+        }
         .hamburger {
             display: block !important;
             position: fixed;

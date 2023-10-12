@@ -11,7 +11,7 @@ main {
 }
 .brands-intro img {
     width: 100%;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
 }
 .brands-text {
@@ -28,13 +28,16 @@ main {
     flex-wrap: wrap;
     width: 60%;
     justify-content: right;
-    height: 400px;
+    height: 450px;
 }
 .brand {
     padding: 20px;
 }
+
 .brand img {
     max-width: 220px;
+    height: 135px;
+    object-fit: contain;
 }
 .brand p {
     text-align: center;
