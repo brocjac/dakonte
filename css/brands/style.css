@@ -1,1 +1,41 @@
 /*Introduction*/
+main {
+    display: flex;
+    max-width: 85%;
+    height: 90vh;
+    margin: 0 auto;
+}
+.brands-intro {
+    position: relative;
+    width: 40%;
+}
+.brands-intro img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.brands-text {
+    color: #fff;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+}
+.brands-text hr {
+    width: 35px;
+}
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: right;
+    height: 400px;
+}
+.brand {
+    padding: 20px;
+}
+.brand img {
+    max-width: 220px;
+}
+.brand p {
+    text-align: center;
+}
