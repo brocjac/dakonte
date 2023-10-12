@@ -23,6 +23,9 @@ main {
 .brands-text hr {
     width: 35px;
 }
+.brands-text h1 {
+    padding: 2px 0 5px 0;
+}
 .brands {
     display: flex;
     flex-wrap: wrap;

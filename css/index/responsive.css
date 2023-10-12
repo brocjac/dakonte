@@ -27,21 +27,6 @@
 
 /*Smart phone size*/
 @media screen and (max-width: 560px) {
-    /*footer*/
-    footer {
-        display: block;
-    }
-    footer img {
-        position: relative;
-        padding-right: 0 !important;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    footer p {
-        text-align: center !important;
-    }
-    /*--------------Home Page----------------*/
-
     /*introduction*/
     .intro-nav {
         flex-wrap: wrap;

@@ -17,3 +17,16 @@ h1 {
 h2 {
     font-size: 32px;
 }
+/*-----------------affects and redundant styles----------------------*/
+.hover-affect-1 {
+    border: solid 1px #E9E9E9;
+    margin: 10px;
+    position: relative;
+    bottom: 0;
+    transition-duration: .3s;
+}
+.hover-affect-1:hover {
+    bottom: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
