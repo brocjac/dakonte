@@ -97,10 +97,13 @@ footer p {
             padding: 13px 15px;
             right: 20px;
             z-index: 999;
+            background-color: #2F528F;
+            border: none;
         }
         .hamburger i {
             font-size: 25px;
             position: relative;
+            color: white;
         }
         .menuItem {
             display: block;

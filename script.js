@@ -58,8 +58,8 @@ function show_hide_2() {
         this.forEach(callback);
     };
     clickHide.globalForEach((element) => {
-        const click2 = document.getElementsByClassName("list-2");
-        Array.from(click2).forEach((y) => {
+        const click = document.getElementsByClassName("list-2");
+        Array.from(click).forEach((y) => {
             if (y.style.display === "none" && element.style.display==="none") {
                 y.style.display = "block";
                 console.log(y)
