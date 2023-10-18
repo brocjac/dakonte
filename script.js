@@ -58,15 +58,18 @@ function show_hide_1() {
         });
         return obj;
     }
-    let elements = getElementsByClasses(['list-1', 'list-2']);
+    let elements = getElementsByClasses(['list-1', 'list-2', 'selected', 'list-link-1']);
     if (elements['list-1'].every(el => window.getComputedStyle(el).display === "none") &&
         elements['list-2'].every(el => window.getComputedStyle(el).display === "none")) {
         elements['list-1'].forEach(el => el.style.display = "block");
+        elements['list-link-1'].forEach(el => el.classList.add('selected'));
     } else if (elements['list-2'].every(el => window.getComputedStyle(el).display === "block")) {
         elements['list-2'].forEach(el => el.style.display = "none");
         elements['list-1'].forEach(el => el.style.display = "block");
+        elements['list-link-1'].forEach(el => el.classList.remove('selected'));
     } else {
         elements['list-1'].forEach(el => el.style.display = "none");
+        elements['list-link-1'].forEach(el => el.classList.remove('selected'));
     }
 }
 function show_hide_2() {

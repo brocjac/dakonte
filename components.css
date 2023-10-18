@@ -41,7 +41,9 @@ header {
 .hover-menu:hover::after {
     transform: scale(1);
 }
-
+.selected {
+    background-color: #2F528F;
+}
 /* popup menus */
 .list {
     display: none;
