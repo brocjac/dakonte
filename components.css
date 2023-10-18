@@ -29,7 +29,7 @@ header {
     text-decoration: none;
     color: black;
 }
-.large-screen::after {
+.hover-menu::after {
     content: "";
     display: block;
     width: 100%;
@@ -38,12 +38,10 @@ header {
     transition: transform 0.2s ease-in-out;
     transform: scale(0);
 }
-.large-screen:hover::after {
+.hover-menu:hover::after {
     transform: scale(1);
 }
-.small-screen {
-    background-color: #2F528F;
-}
+
 /* popup menus */
 .list {
     display: none;
@@ -111,12 +109,6 @@ footer p {
         .menuItem {
             display: block;
         }
-        .nav ul li a::after {
-            all: unset;
-        }
-        .nav ul li a:active {
-            background-color: #2F528F;
-        }
         .nav {
             display: block !important;
             position: fixed;
@@ -156,12 +148,6 @@ footer p {
             background-color: rgba(0,0,0,0.1);
             top: 0;
             transform: translate(0px) !important;
-        }
-        .hover {
-            position: static;
-            display: flex;
-            justify-content: center;
-            top: 50%;
         }
         /*smart phone size*/
         @media screen and (max-width: 420px) {
