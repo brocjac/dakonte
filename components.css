@@ -42,7 +42,7 @@ header {
     transform: scale(1);
 }
 .selected {
-    background-color: #2F528F;
+    background-color: rgba(232, 232, 232);
 }
 /* popup menus */
 .list {
@@ -57,7 +57,7 @@ label {
     position: absolute;
     right: 0;
     transform: translate(-19px);
-    background-color: #fff;
+    background-color: rgba(232, 232, 232);
     padding: 20px;
     z-index: 1;
 }
@@ -147,7 +147,6 @@ footer p {
             position: absolute;
             width: 70%;
             height: 75vh;
-            background-color: rgba(0,0,0,0.1);
             top: 0;
             transform: translate(0px) !important;
         }
